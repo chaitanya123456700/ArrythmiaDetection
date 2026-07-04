@@ -52,25 +52,6 @@ This project presents a hybrid deep learning model for automated ECG heartbeat c
 - F1-Score
 - Confusion Matrix
 
----
-
-## Project Structure
-
-```text
-Arrhythmia-Detection/
-│── dataset/
-│── preprocessing/
-│── models/
-│   ├── cnn.py
-│   ├── densenet.py
-│   ├── hybrid_model.py
-│── train.py
-│── evaluate.py
-│── requirements.txt
-│── README.md
-```
-
----
 
 ## Installation
 
@@ -78,26 +59,8 @@ Arrhythmia-Detection/
 git clone https://github.com/your-username/Arrhythmia-Detection.git
 cd Arrhythmia-Detection
 
-pip install -r requirements.txt
 ```
 
----
-
-## Usage
-
-Train the model:
-
-```bash
-python train.py
-```
-
-Evaluate the trained model:
-
-```bash
-python evaluate.py
-```
-
----
 
 ## Results
 
